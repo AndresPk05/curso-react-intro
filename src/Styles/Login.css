@@ -1,0 +1,47 @@
+.container{
+    padding: 1em;
+}
+
+.container-card{
+    display: grid;
+    place-items: center;
+}
+
+.container-login{
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 8px;
+    padding: 2em;
+}
+
+body{
+    background-image: linear-gradient(to left, #f9aa80, #fdb37d, #ffbd7a, #ffc778, #ffd277, #ffd388, #ffd499, #ffd6aa, #ffd8cb, #ffe2e9, #fbeef9, #f9f9f9);
+    font-family: 'Open Sans', sans-serif;
+    min-height: 98vh;
+}
+
+.input-login{
+    max-width: 600px;
+}
+
+.input-login label{
+    display: block;
+    margin-bottom: 0.5em;
+    text-align: center;
+}
+
+.input-login input{
+    width: 100%;
+    height: 1.5em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.container-button{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
